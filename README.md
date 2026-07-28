@@ -1,6 +1,3 @@
-Ini dia kode **`README.md`** super lengkap dan rapi yang sudah menyertakan bagian **🛠️ Teknologi yang Digunakan** (dengan *icons/badges* visual yang menarik) serta **🚀 Cara Menjalankan Aplikasi Secara Lokal** (lengkap dengan langkah setup virtual environment dan instalasi):
-
-```html
 <div align="center">
 
   <!-- Header Banner Animasi -->
