@@ -42,7 +42,7 @@
 
 ## 🌐 Live Demo Application
 
-Aplikasi ini telah di-deploy dan dapat diakses secara publik melalui tautan berikut:
+Aplikasi ini telah di-deploy dan dapat diakses secara publik melalui tautan berikut:  
 👉 **[Buka Aplikasi Streamlit Live Demo](https://uasdatamining-shella.streamlit.app/)**
 
 ---
@@ -94,6 +94,8 @@ uas_data_mining/
 │   ├── 1_🩺_Klasifikasi.py         # Modul Klasifikasi Diabetes
 │   └── 2_☕_Clustering.py          # Modul Clustering Gerai Kopi
 │
+├── .gitignore                      # Pengabaian file cache & environment Git
 ├── Home.py                         # Landing page utama aplikasi
+├── PANDUAN_PENGERJAAN.md           # Panduan pengerjaan & modul teori proyek
 ├── requirements.txt                # Dependensi pustaka Python
 └── README.md                       # Dokumentasi resmi proyek
