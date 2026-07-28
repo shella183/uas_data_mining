@@ -1,0 +1,23 @@
+# Python Byte-compiled / cache / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit Local Settings & Cache
+.streamlit/
+
+# IDE / Code Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
