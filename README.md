@@ -1,3 +1,6 @@
+Ini dia kode **`README.md`** super lengkap dan rapi yang sudah menyertakan bagian **🛠️ Teknologi yang Digunakan** (dengan *icons/badges* visual yang menarik) serta **🚀 Cara Menjalankan Aplikasi Secara Lokal** (lengkap dengan langkah setup virtual environment dan instalasi):
+
+```html
 <div align="center">
 
   <!-- Header Banner Animasi -->
@@ -99,3 +102,73 @@ uas_data_mining/
 ├── PANDUAN_PENGERJAAN.md           # Panduan pengerjaan & modul teori proyek
 ├── requirements.txt                # Dependensi pustaka Python
 └── README.md                       # Dokumentasi resmi proyek
+
+```
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+Aplikasi ini dibangun menggunakan *tech stack* modern untuk memastikan pemrosesan data presisi dan performa antarmuka yang cepat:
+
+* **Bahasa Pemrograman:** `Python 3.11+`
+* **Web Framework & UI:** `Streamlit 1.28+`
+* **Machine Learning & Preprocessing:** `Scikit-Learn` (KNN, GaussianNB, DecisionTreeClassifier, KMeans, StandardScaler)
+* **Pengolahan & Analisis Data:** `Pandas`, `NumPy`
+* **Visualisasi Data Interaktif:** `Plotly Express`, `Plotly Graph Objects`
+* **Deployment & Hosting:** `Streamlit Community Cloud`
+
+---
+
+## 🚀 Cara Menjalankan Aplikasi Secara Lokal
+
+Ingin mencoba dan menjalankan aplikasi ini langsung di komputer lokal kamu? Ikuti panduan langkah demi langkah berikut:
+
+### 1. Prasyarat
+
+Pastikan kamu sudah menginstal **Python 3.9** atau versi yang lebih baru di komputermu.
+
+### 2. Clone Repositori
+
+Buka Terminal / Command Prompt, lalu jalankan perintah:
+
+```bash
+git clone [https://github.com/shella183/uas_data_mining.git](https://github.com/shella183/uas_data_mining.git)
+cd uas_data_mining
+
+```
+
+### 3. Buat & Aktifkan Virtual Environment (Opsional tapi Disarankan)
+
+```bash
+# Untuk Windows:
+python -m venv venv
+venv\Scripts\activate
+
+# Untuk macOS / Linux:
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+### 4. Install Seluruh Dependensi
+
+Jalankan perintah berikut untuk mengunduh pustaka/library yang dibutuhkan:
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### 5. Jalankan Aplikasi Streamlit
+
+Setelah instalasi selesai, jalankan perintah utama berikut:
+
+```bash
+streamlit run Home.py
+
+```
+
+Aplikasi akan secara otomatis terbuka di browser kamu pada alamat `http://localhost:8501`.
+
+---
