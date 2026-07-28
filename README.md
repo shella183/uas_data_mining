@@ -1,30 +1,31 @@
 <div align="center">
 
-  <!-- Header Banner Animasi -->
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=10,12,24,20&height=230&section=header&text=UAS%20DATA%20MINING%20(SIF304)&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" />
+  <!-- Header Banner Animasi (Fixed) -->
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=220&section=header&text=UAS%20DATA%20MINING%20(SIF304)&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" />
 
-  <!-- Shields / Badges Status -->
+  <!-- Status & Interactive Badges -->
   <p align="center">
+    <a href="https://uasdatamining-shella.streamlit.app/">
+      <img src="https://img.shields.io/badge/Live_Demo-Streamlit_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+    </a>
     <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
     <img src="https://img.shields.io/badge/Scikit--Learn-1.3%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-    <img src="https://img.shields.io/badge/Plotly-5.18%2B-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-    <img src="https://img.shields.io/badge/Pandas-2.1%2B-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+    <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
   </p>
 
-  <h3>🩺 Klasifikasi Diabetes (Supervised) & ☕ Clustering Gerai Kopi (Unsupervised)</h3>
-  <p><i>Aplikasi Web Machine Learning End-to-End dengan UI Dark Mode Modern & Interactive Analytics</i></p>
+  <h3>🩺 Prediksi Diabetes (Supervised) & ☕ Clustering Gerai Kopi (Unsupervised)</h3>
+  <p><i>Aplikasi Web Machine Learning End-to-End dengan UI Dark Mode Modern & Dashboard Analisis Interaktif</i></p>
 
 </div>
 
 ---
 
-## 🎓 Identitas Mahasiswa
+## 🎓 Informasi Mahasiswa & Pengampu
 
 <table>
   <tr>
-    <td width="180px" align="center">
-      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" width="120px" style="border-radius: 50%;" />
+    <td width="150px" align="center">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" width="110px" style="border-radius: 50%;" />
     </td>
     <td>
       <ul>
@@ -42,58 +43,54 @@
 
 ## 🌐 Live Demo Application
 
-Aplikasi ini telah di-deploy dan dapat diakses secara publik melalui tautan berikut:
-👉 **[Buka Aplikasi Streamlit Live Demo](https://uasdatamining-shella.streamlit.app/)**
+Aplikasi ini dapat diakses secara publik dan realtime melalui tautan berikut:  
+👉 **[https://uasdatamining-shella.streamlit.app/](https://uasdatamining-shella.streamlit.app/)**
 
 ---
 
-## 📌 Deskripsi & Fitur Utama Proyek
+## 📌 Fitur Unggulan Proyek (Nilai Tambah)
 
-Aplikasi ini dirancang untuk menyelesaikan dua permasalahan data mining utama menggunakan pendekatan **Supervised Learning** dan **Unsupervised Learning**:
+Aplikasi ini tidak hanya menyajikan prediksi dasar, tetapi dilengkapi fitur analitis canggih:
 
-### 1. 🩺 Modul Klasifikasi Risk Level Diabetes (Supervised)
-* **Tujuan:** Memprediksi apakah seorang pasien berisiko mengidap penyakit diabetes berdasarkan indikator medis.
-* **Algoritma yang Digunakan:**
-  * K-Nearest Neighbors (KNN)
-  * Naïve Bayes (GaussianNB)
-  * Decision Tree Classifier
-* **Fitur Unggulan:**
-  * 📈 **Evaluasi Performa Model:** Menampilkan *Accuracy*, *Precision*, *Recall*, dan *F1-Score* secara *real-time*.
-  * 🎯 **Confusion Matrix Visual:** Plot matriks interaktif menggunakan Plotly.
-  * 🧪 **Form Prediksi Pasien:** Input parameter medis interaktif untuk melakukan simulasi diagnosis langsung.
+### 🩺 Modul Klasifikasi Diabetes (Supervised Learning)
+* **Multi-Model Benchmark:** Membandingkan 3 algoritma sekaligus (**KNN**, **Naïve Bayes**, **Decision Tree**).
+* **Evaluasi Komprehensif:** Metrik otomatis mencakup *Accuracy*, *Precision*, *Recall*, dan *F1-Score*.
+* **Visualisasi Matrix:** *Confusion Matrix* interaktif menggunakan skema warna heatmap dark-mode.
+* **Simulasi Prediksi Pasien:** Form input data medis langsung (*Pregnancies, Glucose, BP, BMI, Age*, dll) dengan *real-time alert Output*.
 
-### 2. ☕ Modul Clustering Lokasi Gerai Kopi (Unsupervised)
-* **Tujuan:** Pengelompokan spasial & pemetaan lokasi gerai kopi untuk analisis kelayakan tempat/bisnis.
-* **Algoritma yang Digunakan:** K-Means Clustering.
-* **Fitur Unggulan:**
-  * 🎛️ **Dinamis K-Selection:** Pemilihan jumlah klaster ($K=2$ hingga $K=6$) secara interaktif.
-  * 🗺️ **Spatial Scatter Plot:** Visualisasi titik koordinat lokasi gerai beresolusi tinggi dengan skema warna kontras.
-  * 📊 **Ringkasan Distribusi Data:** Tabel proporsi dan jumlah gerai pada masing-masing klaster.
+### ☕ Modul Clustering Gerai Kopi (Unsupervised Learning)
+* **K-Means Clustering:** Pengelompokan lokasi bisnis berbasis pemodelan spasial.
+* **Dynamic Elbow & K-Selection:** Fleksibilitas menentukan jumlah klaster ($K=2$ hingga $K=6$).
+* **Pemetaan Visual:** Interactive Scatter Plot menggunakan Plotly Express untuk analisis zona kompetisi & potensi pasar.
 
 ---
 
-## 📊 Ringkasan Dataset
+## 📊 Detail Dataset & Pemodelan
 
-| Modul | Dataset | Jumlah Sampel | Atribut / Fitur Utama | Target Output |
-| :--- | :--- | :---: | :--- | :--- |
-| **Klasifikasi** | `diabetes.csv` | 768 Data | Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigree, Age | Outcome (`0`: Sehat, `1`: Diabetes) |
-| **Clustering** | `gerai_kopi.csv` | 200+ Data | Koordinat X, Koordinat Y, Kepadatan Penduduk, Arus Lalu Lintas, Jumlah Kompetitor | Cluster ID (`Klaster 1`, `Klaster 2`, dst.) |
+| Parameter | Modul Klasifikasi | Modul Clustering |
+| :--- | :--- | :--- |
+| **Dataset** | `diabetes.csv` | `gerai_kopi.csv` |
+| **Metode/Algoritma** | KNN, Naïve Bayes, Decision Tree | K-Means Clustering |
+| **Tipe Pembelajaran** | Supervised Learning | Unsupervised Learning |
+| **Jumlah Fitur/Atribut** | 8 Variabel Medis | 5 Variabel Spasial & Demografi |
+| **Output Utama** | Klasifikasi Risiko (`Sehat` / `Diabetes`) | Klaster Pemetaan Lokasi Strategis |
 
 ---
 
-## 📂 Struktur Repositori
+## 📂 Arsitektur Repositori
 
 ```text
 uas_data_mining/
 │
-├── 📁 data/                        # Directory dataset
-│   ├── diabetes.csv                # Dataset medis pasien diabetes
-│   └── gerai_kopi.csv              # Dataset lokasi & demografi gerai kopi
+├── 📁 data/                        # File Dataset CSV
+│   ├── diabetes.csv                # Dataset Medis Pasien
+│   └── gerai_kopi.csv              # Dataset Demografi & Lokasi Gerai
 │
-├── 📁 pages/                       # Multi-page Streamlit views
-│   ├── 1_🩺_Klasifikasi.py         # Modul Klasifikasi Diabetes
-│   └── 2_☕_Clustering.py          # Modul Clustering Gerai Kopi
+├── 📁 pages/                       # Multi-page Views Streamlit
+│   ├── 1_🩺_Klasifikasi.py         # Modul Supervised Learning
+│   └── 2_☕_Clustering.py          # Modul Unsupervised Learning
 │
-├── Home.py                         # Landing page utama aplikasi
-├── requirements.txt                # Dependensi pustaka Python
-└── README.md                       # Dokumentasi resmi proyek
+├── .gitignore                      # File konfig pengabaian cache Git
+├── Home.py                         # Landing Page Utama Aplikasi
+├── requirements.txt                # Dependensi Pustaka Python
+└── README.md                       # Dokumentasi Resmi Proyek
